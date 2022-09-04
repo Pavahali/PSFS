@@ -1,0 +1,1 @@
+cmd_/home/pava/Desktop/PSFS/cimpl/Module.symvers := sed 's/\.ko$$/.prelink\.o/' /home/pava/Desktop/PSFS/cimpl/modules.order | scripts/mod/modpost  -a  -o /home/pava/Desktop/PSFS/cimpl/Module.symvers -e -i Module.symvers  -N -T -

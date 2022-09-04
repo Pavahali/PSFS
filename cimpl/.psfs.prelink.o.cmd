@@ -1,0 +1,1 @@
+cmd_/home/pava/Desktop/PSFS/cimpl/psfs.prelink.o := ld -m elf_x86_64   -r -o /home/pava/Desktop/PSFS/cimpl/psfs.prelink.o  --whole-archive /home/pava/Desktop/PSFS/cimpl/psfs.o  ; ./tools/objtool/objtool orc generate  --module  --lto --ibt  --no-fp   --retpoline  --uaccess   --sls /home/pava/Desktop/PSFS/cimpl/psfs.prelink.o
